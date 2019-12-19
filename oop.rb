@@ -15,9 +15,9 @@ class Employee
 		puts "#{name}"
 	end
 
-	#private :set_sal, :set_name, :show_sal		only accessible by instance and class methods (cannot be inherited)
+	#private :set_sal, :set_name, :show_sal		only accessible by instance and class methods (cannot be implicitly accessed if inherited)
 	public  :show_policies, :show_emp_name		#can be accessed by instance and class methods as well as non memeber methods
-	#protected 									#only accessible by instance and class methods (can be inherited)
+	#protected 									#only accessible by instance and class methods (can be implicitly accessed if inherited)
 
 	
 
